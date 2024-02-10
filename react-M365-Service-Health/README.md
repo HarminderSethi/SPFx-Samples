@@ -8,8 +8,8 @@ Contains SPFx web part & Azure Function with below functionalities
 2. SPFx webpart shows the health status for all the M365 services.
 3. SPFx webpart shows the complete details including all the updates for all the impacted services.
 
-![M365 Services Health List](./SPFx-Webpart/assets/M365ServiceHealthList.png)
-![Service Health Detail](./SPFx-Webpart/assets/M365ServiceHealthDetail.png)
+![M365 Services Health List](./assets/M365ServiceHealthList.png)
+![Service Health Detail](./assets/M365ServiceHealthDetail.png)
 
 ## Compatibility
 
@@ -96,7 +96,7 @@ Steps to follow:
       - Provide the Azure function app URL(without /api/m365servicehealth) in API Base URL property
       - Provide Application ID URI(created during 'Expose an API' step) in Audience property
 
-      ![Web Part Properties](./SPFx-Webpart/assets/WebPartProperties.png)
+      ![Web Part Properties](./assets/WebPartProperties.png)
 
 ## Contributors
 
