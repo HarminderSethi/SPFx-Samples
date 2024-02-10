@@ -8,8 +8,8 @@ Contains SPFx web part & Azure Function with below functionalities
 2. SPFx webpart shows the health status for all the M365 services.
 3. SPFx webpart shows the complete details including all the updates for all the impacted services.
 
-![M365 Services Health List](./assets/M365ServiceHealthList.png)
-![Service Health Detail](./assets/M365ServiceHealthDetail.png)
+![M365 Services Health List](./Assets/M365ServiceHealthList.png)
+![Service Health Detail](./Assets/M365ServiceHealthDetail.png)
 
 ## Compatibility
 
@@ -53,7 +53,7 @@ Steps to follow:
   4. For Supported account types, select Accounts in this organization directory only. Leave the other options as is.
   5. Select Register.
 
-  ![Azure Entra ID app registration](./assets/AppRegistration.png)
+  ![Azure Entra ID app registration](./Assets/AppRegistration.png)
 
   6. After registering the application, you can find the application (client) ID and Directory (tenant) ID from the overview menu option of Entra ID App. Make a note of the values for use later.
   7. Select Certificates & Secrets in the manage section of Entra ID app created and select New Client Secret. Select Recommended 6 months in the Expires field. This new secret will be valid for six months. You can also choose different values such as:
@@ -96,7 +96,7 @@ Steps to follow:
       - Provide the Azure function app URL(without /api/m365servicehealth) in API Base URL property
       - Provide Application ID URI(created during 'Expose an API' step) in Audience property
 
-      ![Web Part Properties](./assets/WebPartProperties.png)
+      ![Web Part Properties](./Assets/WebPartProperties.png)
 
 ## Contributors
 
