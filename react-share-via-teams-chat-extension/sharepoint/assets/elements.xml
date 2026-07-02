@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Title="ShareViaTeamsChat"
+    RegistrationId="100"
+    RegistrationType="List"
+    Location="ClientSideExtension.ListViewCommandSet"
+    ClientSideComponentId="c1d2e3f4-a5b6-7890-cdef-123456789012"
+    ClientSideComponentProperties="{}">
+  </CustomAction>
+  <CustomAction
+    Title="ShareViaTeamsChat"
+    RegistrationId="101"
+    RegistrationType="List"
+    Location="ClientSideExtension.ListViewCommandSet"
+    ClientSideComponentId="c1d2e3f4-a5b6-7890-cdef-123456789012"
+    ClientSideComponentProperties="{}">
+  </CustomAction>
+</Elements>

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/dev/Lists/Decisions/AllItems.aspx",
+      "customActions": {
+        "c1d2e3f4-a5b6-7890-cdef-123456789012": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {}
+        }
+      }
+    }
+  }
+}

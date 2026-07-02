@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-share-via-teams-chat-extension",
+    "id": "a0b1c2d3-e4f5-6789-abcd-ef0123456789",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": false,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.0"
+    },
+    "webApiPermissionRequests": [
+      { "resource": "Microsoft Graph", "scope": "Chat.Read" },
+      { "resource": "Microsoft Graph", "scope": "Chat.ReadWrite" },
+      { "resource": "Microsoft Graph", "scope": "Chat.ReadBasic" },
+      { "resource": "Microsoft Graph", "scope": "ChatMessage.Send" },
+      { "resource": "Microsoft Graph", "scope": "Team.ReadBasic.All" },
+      { "resource": "Microsoft Graph", "scope": "Channel.ReadBasic.All" },
+      { "resource": "Microsoft Graph", "scope": "ChannelMessage.Send" }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "Share list items to Teams chats and channels"
+      },
+      "longDescription": {
+        "default": "A ListView Command Set extension that lets users share selected list items or documents into a Microsoft Teams chat or channel as a formatted Adaptive Card. Supports multi-select."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-share-via-teams-chat-extension",
+        "description": "Activates the Share via Teams Chat command set on lists.",
+        "id": "b1c2d3e4-f5a6-7890-bcde-f12345678901",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": ["elements.xml"]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-share-via-teams-chat-extension.sppkg"
+  }
+}
